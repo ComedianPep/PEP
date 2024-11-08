@@ -19,6 +19,7 @@ body {
 @media (max-width: 836px) and (min-width: 751px) {
     .lineI {
         font-size: 11.5vw;
+        width: 100%;
     }
 
     .lineII{
