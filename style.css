@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Times+New+Roman&display=swap');
+
+body {
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+    background-color: #fffbf4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px; 
+    width: 100%;
+    text-align: justify;
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: #fffbf4;
+    z-index: 10;
+}
+
+.header .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.header nav {
+    display: flex;
+    gap: 10px;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.header nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-placeholder {
+    display: none !important;
+}
+
+.coming-soon {
+    color: #888 !important;
+}
+
+.coming-soon:hover {
+    color: #888 !important;
+    text-decoration: none !important;
+}
+
+.header nav a:hover {
+    color: #ffc800;
+    text-decoration: underline;
+}
+
+.menu-image{
+    display: none;
+}
+
+.date {
+    font-size: 16px;
+    color: #888;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ca {
+    font-size: 16px;
+    color: #888;
+    cursor: copy;
+    position: relative;
+    z-index: 5;
+}
+
+.ca:hover {
+    color: #000;
+}
+
+.titleI {
+    color: #000;
+    line-height: 0.9;
+    text-align: center;
+    max-width: fit-content;
+    margin-top: 0px;
+}
+
+.lineI {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4.45em;
+    text-transform: uppercase;
+    color: #ffc800;
+}
+
+.lineII {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.34em;
+    text-transform: uppercase;
+}
+
+.separatorI {
+    border: none;
+    border-top: 1px solid #000;
+    margin: 20px auto;
+    width: 100%; 
+}
+
+.intro {
+    font-size: 1.8em;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.image-row {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.imageI {
+    text-align: center;
+    width: 40%;
+}
+
+.imageI img {
+    width: 100%;
+    height: auto;
+}
+
+.image-description {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+.main-textI {
+    margin-top: 0px;
+}
+
+.main-textI p {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.titleII {
+    color: #000;
+    line-height: 0.9;
+    text-align: center;
+    max-width: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title-lineI {
+    color: #000;
+    position: relative;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 9.6vw;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.separatorI {
+    border: none;
+    border-top: 1px solid #000;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.main-textII {
+    margin-top: 0px;
+}
+
+.main-textII p {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.image-itemII {
+    text-align: center;
+    width: 100%; /* Usa l'intera larghezza del container */
+    max-width: 100%; /* Impedisci che ecceda il container */
+    padding: 0; /* Rimuovi eventuali padding che influenzano la larghezza */
+}
+
+.image-itemII img {
+    width: 100%; /* L'immagine occupa tutta la larghezza dell'elemento */
+    height: auto; /* Mantiene le proporzioni */
+}
+
+.main-textIII {
+    margin-top: -20px;
+}
+
+.main-textIII p {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.footer {
+    font-size: 16px;
+    color: #888;
+    margin-top: -10px;
+    margin-bottom: -18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
